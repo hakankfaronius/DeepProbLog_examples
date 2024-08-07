@@ -1,5 +1,3 @@
 .DS_Store
 .venv/
 data/
-__pycache__/
-__pycache__/network.cpython-311.pyc
