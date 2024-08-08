@@ -21,7 +21,7 @@ class MNIST_Net(nn.Module):
             nn.Softmax(1),
         )
 
-    def forward(self, x):
+    def forward(self, x, y):
         print(x.shape)
         x = self.encoder(x)
         x = x.view(-1, 16 * 4 * 4)
